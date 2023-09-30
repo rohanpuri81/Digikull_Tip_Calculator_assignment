@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  background-color: #0080ff;
+  width: 70vw;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 3px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.input {
+  width: 70vw;
+  min-height: 40vh;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+.bill {
+  height: 53%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bill input {
+  width: 90%;
+}
+.options {
+  display: flex;
+  height: 47%;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.options select {
+  padding: 7px 10px;
+}
+.options button {
+  background-color: #0080ff;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+.options button:hover {
+  background-color: skyblue;
+}
+.custList {
+  width: 70vw;
+  border: 1px solid black;
+  min-height: 30vh;
+  padding: 20px;
+}
+.custList h3 {
+  text-align: center;
+}
+.footer {
+  background-color: black;
+  color: #fff;
+  width: 70vw;
+}
+.footer {
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+}
+
+.list {
+  padding: 10px;
+}
